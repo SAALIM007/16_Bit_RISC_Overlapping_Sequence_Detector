@@ -1,0 +1,6 @@
+verilog work "Source Code/dff.v"
+verilog work "Source Code/overlapping_sequence_detector.v"
+verilog work "Source Code/hex_to_7segment.v"
+verilog work "Source Code/debounce.v"
+verilog work "Source Code/clk_500HZ.v"
+verilog work "Source Code/top_level_lab_3.v"

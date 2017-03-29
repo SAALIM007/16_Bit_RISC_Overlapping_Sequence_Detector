@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Victor Espinoza\Desktop\CECS 301\Lab 3- Sequence Detector (Phase 2)\Overlapping_Sequence_Detector\top_level_lab_3.ncd
+OUTFILE=C:\Users\Victor Espinoza\Desktop\CECS 301\Lab 3- Sequence Detector (Phase 2)\Overlapping_Sequence_Detector\top_level_lab_3.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Victor Espinoza\Desktop\CECS 301\Lab 3- Sequence Detector (Phase 2)\Overlapping_Sequence_Detector
+LICENSE=WebPack
+USER_INFO=174166057_174166058_210574515_042

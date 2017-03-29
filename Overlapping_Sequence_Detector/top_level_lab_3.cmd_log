@@ -1,0 +1,68 @@
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "E:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "E:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "H:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
+xst -intstyle ise -ifn "E:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "E:/CECS 301/LABS/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+xst -intstyle ise -ifn "C:/Users/Victor Espinoza/Desktop/CECS 301/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.xst" -ofn "C:/Users/Victor Espinoza/Desktop/CECS 301/Lab 3- Sequence Detector (Phase 2)/Overlapping_Sequence_Detector/top_level_lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchAssignment.ucf -p xc3s500e-fg320-5 "top_level_lab_3.ngc" top_level_lab_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o top_level_lab_3_map.ncd top_level_lab_3.ngd top_level_lab_3.pcf 
+par -w -intstyle ise -ol high -t 1 top_level_lab_3_map.ncd top_level_lab_3.ncd top_level_lab_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top_level_lab_3.twx top_level_lab_3.ncd -o top_level_lab_3.twr top_level_lab_3.pcf -ucf switchAssignment.ucf 
+bitgen -intstyle ise -f top_level_lab_3.ut top_level_lab_3.ncd 
