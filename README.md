@@ -12,4 +12,4 @@ This project was created using Xilinx ISE Project Navigator Version: 14.7.
   
   
 Project Verification:  
-The verification for this project was done by running the circuit through the sequence_detector_tb() module. This module feeds the sequence detector with an appropriate test sequence value and verifys that the sequence detector is in fact outputting the correct values.
+The verification for this project was done by running the circuit through the overlapping_sequence_detector_tb() module. This module feeds the sequence detector with an appropriate test sequence value and verifys that the sequence detector is in fact outputting the correct values.
