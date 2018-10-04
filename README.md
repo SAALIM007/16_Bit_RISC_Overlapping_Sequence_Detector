@@ -1,5 +1,5 @@
 # Lab_3_Sequence_Detector_Phase_2
-Project Overview:  
+Project Overview:
 Second Phase implementation of sequence detector using Verilog.  
   
 This project is a modified version of Lab_2. In this project, I modified both the Moore and Mealy implementations to be overlapping sequence detectors. As a result, the sequence detector has an input X that is used to detect the overlapping sequence of "101101". The output Z becomes 1 when the proper overlapping input sequence is received and is 0 otherwise. A "mode" input (M) specifies which implementation is being used: If M=0, a "Mealy" implementation is chosen and if M=1, then the "Moore" implementation is chosen.
