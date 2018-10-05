@@ -1,4 +1,4 @@
-# Lab_2_Sequence_Detector_Phase_2 
+# Lab_3_Sequence_Detector_Phase_2 
 Project Overview:
 Second Phase implementation of sequence detector using Verilog.  
   
